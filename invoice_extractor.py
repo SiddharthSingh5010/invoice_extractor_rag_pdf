@@ -1,6 +1,6 @@
 import streamlit as st
 import invoice_utils as iu 
-
+import numpy as np
 def main():
     st.set_page_config(page_title="Invoice Extraction Bot")
     st.title("Invoice Extraction Bot...💁 ")

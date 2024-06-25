@@ -7,7 +7,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains.llm import LLMChain
 import os
 # Setting Open AI API Key
-os.environ["OPENAI_API_KEY"] = "#"
+os.environ["OPENAI_API_KEY"] = "##"
 
 #load GPT 3.5 model
 llm = ChatOpenAI(
